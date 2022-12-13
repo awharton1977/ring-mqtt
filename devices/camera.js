@@ -150,7 +150,7 @@ class Camera extends RingPolledDevice {
             },
             snapshot_interval: {
                 component: 'number',
-                min: 10,
+                min: 2,
                 max: 604800,
                 icon: 'hass:timer'
             },
